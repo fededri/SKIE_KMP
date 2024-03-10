@@ -1,2 +1,2 @@
-# skie_tests
-Small project to test out the SKIE features for KMM
+# SKIE KMP 
+Small project to play around with the SKIE tool for improving iOS devs experience consumir Kotlin Multiplatform code.
