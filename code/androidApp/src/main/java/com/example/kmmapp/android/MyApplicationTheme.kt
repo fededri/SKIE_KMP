@@ -1,4 +1,4 @@
-package com.example.skietests.android
+package com.example.kmmapp.android
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape

@@ -1,7 +1,10 @@
+import co.touchlab.skie.configuration.EnumInterop
+import co.touchlab.skie.configuration.SealedInterop
+
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
-    id("co.touchlab.skie") version "0.6.1"
+    alias(libs.plugins.skie)
 }
 
 kotlin {
@@ -27,6 +30,8 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             //put your multiplatform dependencies here
+            implementation(libs.skie.annotations)
+            implementation(libs.kotlinx.coroutines.core)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
@@ -35,9 +40,9 @@ kotlin {
 }
 
 android {
-    namespace = "com.example.skietests"
+    namespace = "com.example.kmmapp"
     compileSdk = 34
     defaultConfig {
-        minSdk = 24
+        minSdk = 31
     }
 }

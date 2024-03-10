@@ -1,9 +1,9 @@
-package com.example.skietests
+package com.example.kmmapp
 
 class Greeting {
     private val platform: Platform = getPlatform()
 
     fun greet(): String {
-        return "Hello, ${platform.name}!"
+        return "Hello Chamaco, ${platform.name}!"
     }
 }

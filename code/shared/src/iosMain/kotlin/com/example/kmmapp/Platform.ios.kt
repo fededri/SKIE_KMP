@@ -1,4 +1,4 @@
-package com.example.skietests
+package com.example.kmmapp
 
 import platform.UIKit.UIDevice
 

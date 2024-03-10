@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SkieTests"
+rootProject.name = "KMMApp"
 include(":androidApp")
 include(":shared")

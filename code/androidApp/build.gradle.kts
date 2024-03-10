@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.skietests.android"
+    namespace = "com.example.kmmapp.android"
     compileSdk = 34
     defaultConfig {
-        applicationId = "com.example.skietests.android"
-        minSdk = 24
+        applicationId = "com.example.kmmapp.android"
+        minSdk = 31
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
